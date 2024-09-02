@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Início</title>
+    <style>
+        /* corpo da página e personalização */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5; 
+            color: #333; 
+            line-height: 1.6;
+        }
+
+        /* Navegação */
+        nav {
+            background-color: #fff; 
+            text-align: center;
+            padding: 10px 0;
+            border-bottom: 1px solid #ddd; 
+        }
+
+        nav a {
+            color: #555; 
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 16px;
+        }
+
+        /* Seção principal */
+        .container {
+            width: 80%;
+            max-width: 1000px;
+            margin: 40px auto;
+            background-color: #fff; 
+            padding: 20px;
+            border: 1px solid #ddd; 
+            border-radius: 5px; 
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        /* Cards */
+        .card {
+            background-color: #fff; 
+            width: 48%; 
+            margin-bottom: 20px;
+            padding: 20px;
+            border: 1px solid #ddd; 
+            border-radius: 5px; 
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+            text-align: center;
+            box-sizing: border-box;
+            text-decoration: none;
+            color: #333;
+        }
+
+        .card:hover {
+            background-color: #f0f0f0; /* Fundo cinza claro ao passar o mouse */
+            text-decoration: none;
+        }
+
+        .card h2 {
+            margin: 0;
+            font-size: 24px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <!-- Navegação principal -->
+    <nav>
+        <a href="index.html">INÍCIO - José Bruno dos Santos, 4556018</a>
+    </nav>
+
+    <!-- Container principal -->
+    <div class="container">
+        <a href="sobre-mim.html" class="card">
+            <h2>Sobre Mim</h2>
+        </a>
+
+        <a href="formacao.html" class="card">
+            <h2>Formação</h2>
+        </a>
+
+        <a href="portfolio.html" class="card">
+            <h2>Portfólio</h2>
+        </a>
+
+        <a href="contato.html" class="card">
+            <h2>Contato</h2>
+        </a>
+    </div>
+
+</body>
+
+</html>
